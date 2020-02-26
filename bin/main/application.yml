@@ -1,0 +1,5 @@
+#Configuration File of the MicroServicesspring:  application:    #Parameter to set the Micro Service Name    name: MsDecoder
+
+server:  #This parameter defines the port which the TomCat server will be started
+  port: 9999
+  

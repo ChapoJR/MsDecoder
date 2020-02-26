@@ -1,0 +1,865 @@
+10:55:41.632 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.robert.integration.test.DecoderControllerWaesImplTest], using SpringBootContextLoader
+10:55:41.659 [INFO ] [                   Test worker] [         AbstractContextLoader:264] - Could not detect default resource locations for test class [com.robert.integration.test.DecoderControllerWaesImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:55:41.661 [INFO ] [                   Test worker] [tationConfigContextLoaderUtils:83 ] - Could not detect default configuration classes for test class [com.robert.integration.test.DecoderControllerWaesImplTest]: DecoderControllerWaesImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:55:41.780 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:235] - Found @SpringBootConfiguration com.robert.MsDecoderApplication for test class com.robert.integration.test.DecoderControllerWaesImplTest
+10:55:41.895 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:55:41.912 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7656d11c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2198def4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34b719ab, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ccc9888, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c526c3c, org.springframework.test.context.event.EventPublishingTestExecutionListener@7bda6e3c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@77ac5aad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4f1c8408, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4020225b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68231fed, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d4f5976]
+10:55:42.294 [INFO ] [                   Test worker] [ DecoderControllerWaesImplTest:55 ] - Starting DecoderControllerWaesImplTest on DESARROLLO-ROBERTOA with PID 15224 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+10:55:42.294 [INFO ] [                   Test worker] [ DecoderControllerWaesImplTest:651] - No active profile set, falling back to default profiles: default
+10:55:43.738 [INFO ] [                   Test worker] [               TomcatWebServer:92 ] - Tomcat initialized with port(s): 0 (http)
+10:55:43.751 [INFO ] [                   Test worker] [             Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-auto-1"]
+10:55:43.752 [INFO ] [                   Test worker] [               StandardService:173] - Starting service [Tomcat]
+10:55:43.752 [INFO ] [                   Test worker] [                StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+10:55:43.932 [INFO ] [                   Test worker] [                           [/]:173] - Initializing Spring embedded WebApplicationContext
+10:55:43.933 [INFO ] [                   Test worker] [                 ContextLoader:284] - Root WebApplicationContext: initialization completed in 1618 ms
+10:55:44.648 [INFO ] [                   Test worker] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:55:44.807 [INFO ] [                   Test worker] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+10:55:45.147 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:160] - Context refreshed
+10:55:45.184 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+10:55:45.219 [INFO ] [                   Test worker] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+10:55:45.435 [INFO ] [                   Test worker] [             Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-auto-1"]
+10:55:45.451 [INFO ] [                   Test worker] [               TomcatWebServer:204] - Tomcat started on port(s): 53591 (http) with context path ''
+10:55:45.455 [INFO ] [                   Test worker] [ DecoderControllerWaesImplTest:61 ] - Started DecoderControllerWaesImplTest in 3.506 seconds (JVM running for 5.456)
+10:55:45.816 [INFO ] [        http-nio-auto-1-exec-1] [                           [/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:55:45.816 [INFO ] [        http-nio-auto-1-exec-1] [             DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+10:55:45.838 [INFO ] [        http-nio-auto-1-exec-1] [             DispatcherServlet:547] - Completed initialization in 22 ms
+10:55:45.913 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:51 ] - storeLeftJSON Request
+10:55:45.913 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:52 ] - jsonRequest:StoreJSONRequest(jsonObject=ewogICAgImdsb3NzYXJ5IjogewogICAgICAgICJ0aXRsZSI6ICJleGFtcGxlIGdsb3NzYXJ5IiwKCQkiR2xvc3NEaXYiOiB7CiAgICAgICAgICAgICJ0aXRsZSI6ICJTIiwKCQkJIkdsb3NzTGlzdCI6IHsKICAgICAgICAgICAgICAgICJHbG9zc0VudHJ5IjogewogICAgICAgICAgICAgICAgICAgICJJRCI6ICJTR01MIiwKCQkJCQkiU29ydEFzIjogIlNHTUwiLAoJCQkJCSJHbG9zc1Rlcm0iOiAiU3RhbmRhcmQgR2VuZXJhbGl6ZWQgTWFya3VwIExhbmd1YWdlIiwKCQkJCQkiQWNyb255bSI6ICJTR01MIiwKCQkJCQkiQWJicmV2IjogIklTTyA4ODc5OjE5ODYiLAoJCQkJCSJHbG9zc0RlZiI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgInBhcmEiOiAiQSBtZXRhLW1hcmt1cCBsYW5ndWFnZSwgdXNlZCB0byBjcmVhdGUgbWFya3VwIGxhbmd1YWdlcyBzdWNoIGFzIERvY0Jvb2suIiwKCQkJCQkJIkdsb3NzU2VlQWxzbyI6IFsiR01MIiwgIlhNTCJdCiAgICAgICAgICAgICAgICAgICAgfSwKCQkJCQkiR2xvc3NTZWUiOiAibWFya3VwIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9)
+10:55:45.914 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:53 ] - idRequest:Integration
+10:55:45.918 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:72 ] - JsonId not found
+10:55:45.919 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:73 ] - Creating new HashMap Instance
+10:55:45.919 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Integration
+10:55:45.947 [INFO ] [        http-nio-auto-1-exec-2] [     DecoderControllerWaesImpl:73 ] - storeRightJSON Request:
+10:55:45.947 [INFO ] [        http-nio-auto-1-exec-2] [     DecoderControllerWaesImpl:74 ] - jsonRequest:StoreJSONRequest(jsonObject=eyJ3aWRnZXQiOiB7CiAgICAiZGVidWciOiAib24iLAogICAgIndpbmRvdyI6IHsKICAgICAgICAidGl0bGUiOiAiU2FtcGxlIEtvbmZhYnVsYXRvciBXaWRnZXQiLAogICAgICAgICJuYW1lIjogIm1haW5fd2luZG93IiwKICAgICAgICAid2lkdGgiOiA1MDAsCiAgICAgICAgImhlaWdodCI6IDUwMAogICAgfSwKICAgICJpbWFnZSI6IHsgCiAgICAgICAgInNyYyI6ICJJbWFnZXMvU3VuLnBuZyIsCiAgICAgICAgIm5hbWUiOiAic3VuMSIsCiAgICAgICAgImhPZmZzZXQiOiAyNTAsCiAgICAgICAgInZPZmZzZXQiOiAyNTAsCiAgICAgICAgImFsaWdubWVudCI6ICJjZW50ZXIiCiAgICB9LAogICAgInRleHQiOiB7CiAgICAgICAgImRhdGEiOiAiQ2xpY2sgSGVyZSIsCiAgICAgICAgInNpemUiOiAzNiwKICAgICAgICAic3R5bGUiOiAiYm9sZCIsCiAgICAgICAgIm5hbWUiOiAidGV4dDEiLAogICAgICAgICJoT2Zmc2V0IjogMjUwLAogICAgICAgICJ2T2Zmc2V0IjogMTAwLAogICAgICAgICJhbGlnbm1lbnQiOiAiY2VudGVyIiwKICAgICAgICAib25Nb3VzZVVwIjogInN1bjEub3BhY2l0eSA9IChzdW4xLm9wYWNpdHkgLyAxMDApICogOTA7IgogICAgfQp9fSAgIA==)
+10:55:45.948 [INFO ] [        http-nio-auto-1-exec-2] [     DecoderControllerWaesImpl:75 ] - idRequest:Integration
+10:55:45.949 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Integration
+10:55:45.949 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+} and {"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}   
+10:55:45.950 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+10:55:45.951 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:143] - RightDecode:{"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}   
+10:55:45.962 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=glossary = {title=example glossary, GlossDiv={title=S, GlossList={GlossEntry={ID=SGML, SortAs=SGML, GlossTerm=Standard Generalized Markup Language, Acronym=SGML, Abbrev=ISO 8879:1986, GlossDef={para=A meta-markup language, used to create markup languages such as DocBook., GlossSeeAlso=[GML, XML]}, GlossSee=markup}}}}, rightDifference=widget = {debug=on, window={title=Sample Konfabulator Widget, name=main_window, width=500.0, height=500.0}, image={src=Images/Sun.png, name=sun1, hOffset=250.0, vOffset=250.0, alignment=center}, text={data=Click Here, size=36.0, style=bold, name=text1, hOffset=250.0, vOffset=100.0, alignment=center, onMouseUp=sun1.opacity = (sun1.opacity / 100) * 90;}}, valueDifference=null)
+10:55:45.986 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.robert.unit.test.OperationDecoderWaesImplTest], using SpringBootContextLoader
+10:55:45.987 [INFO ] [                   Test worker] [         AbstractContextLoader:264] - Could not detect default resource locations for test class [com.robert.unit.test.OperationDecoderWaesImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:55:45.988 [INFO ] [                   Test worker] [tationConfigContextLoaderUtils:83 ] - Could not detect default configuration classes for test class [com.robert.unit.test.OperationDecoderWaesImplTest]: OperationDecoderWaesImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:55:45.994 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:235] - Found @SpringBootConfiguration com.robert.MsDecoderApplication for test class com.robert.unit.test.OperationDecoderWaesImplTest
+10:55:45.996 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:55:45.998 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5cfaaf6b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78e9eeb0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55829678, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3fe75b48, org.springframework.test.context.support.DirtiesContextTestExecutionListener@366f3a28, org.springframework.test.context.event.EventPublishingTestExecutionListener@1c4de3b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@40b4a92d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@450c9768, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a7d5b9b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2def79e9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@487740b8]
+10:55:46.031 [INFO ] [                   Test worker] [  OperationDecoderWaesImplTest:55 ] - Starting OperationDecoderWaesImplTest on DESARROLLO-ROBERTOA with PID 15224 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+10:55:46.032 [INFO ] [                   Test worker] [  OperationDecoderWaesImplTest:651] - No active profile set, falling back to default profiles: default
+10:55:46.694 [INFO ] [                   Test worker] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:55:46.865 [INFO ] [                   Test worker] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+10:55:47.026 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:160] - Context refreshed
+10:55:47.027 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+10:55:47.034 [INFO ] [                   Test worker] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+10:55:47.068 [INFO ] [                   Test worker] [  OperationDecoderWaesImplTest:61 ] - Started OperationDecoderWaesImplTest in 1.062 seconds (JVM running for 7.068)
+10:55:47.082 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:72 ] - JsonId not found
+10:55:47.083 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:73 ] - Creating new HashMap Instance
+10:55:47.083 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Test
+10:55:47.089 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Test
+10:55:47.089 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+"comment" : "Test",
+"code" : 00
+}
+10:55:47.090 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+10:55:47.090 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:143] - RightDecode:{
+"comment" : "Test",
+"code" : 00
+}
+10:55:47.092 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=token = 123$dhgjtu, rightDifference=code = 00, valueDifference=comment = (Test1, Test))
+10:55:47.101 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:72 ] - JsonId not found
+10:55:47.101 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:73 ] - Creating new HashMap Instance
+10:55:47.101 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Equal
+10:55:47.102 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Equal
+10:55:47.102 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+10:55:47.102 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is equal, leftDifference=null, rightDifference=null, valueDifference=null)
+10:55:47.107 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:98 ] - JSON Structure already in this side
+10:55:47.108 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:98 ] - JSON Structure already in this side
+10:55:47.114 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Test
+10:55:47.114 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:55:47.115 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+10:55:47.115 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:143] - RightDecode:{
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:55:47.116 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=token = 123$dhgjtu,comment = Test1, rightDifference=items = [{id=704.0, valor=100CC, marca=CARABELA}, {id=654.0, valor=1200 CUSTOM, marca=HARLEY-DAVIDSON}, {id=707.0, valor=125CC, marca=CARABELA}], valueDifference=null)
+10:55:47.117 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Test
+10:55:47.117 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+"comment" : "Test",
+"code" : 00
+} and {
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:55:47.118 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+"comment" : "Test",
+"code" : 00
+}
+10:55:47.120 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:143] - RightDecode:{
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:55:47.121 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=comment = Test,code = 00, rightDifference=items = [{id=704.0, valor=100CC, marca=CARABELA}, {id=654.0, valor=1200 CUSTOM, marca=HARLEY-DAVIDSON}, {id=707.0, valor=125CC, marca=CARABELA}], valueDifference=null)
+10:55:47.134 [INFO ] [     SpringContextShutdownHook] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+10:55:47.135 [INFO ] [     SpringContextShutdownHook] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+10:57:43.801 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.robert.integration.test.DecoderControllerWaesImplTest], using SpringBootContextLoader
+10:57:43.810 [INFO ] [                   Test worker] [         AbstractContextLoader:264] - Could not detect default resource locations for test class [com.robert.integration.test.DecoderControllerWaesImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:57:43.812 [INFO ] [                   Test worker] [tationConfigContextLoaderUtils:83 ] - Could not detect default configuration classes for test class [com.robert.integration.test.DecoderControllerWaesImplTest]: DecoderControllerWaesImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:57:43.959 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:235] - Found @SpringBootConfiguration com.robert.MsDecoderApplication for test class com.robert.integration.test.DecoderControllerWaesImplTest
+10:57:44.067 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:57:44.080 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22982a03, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39faa74, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@112631e6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@149acfd9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@77b1377b, org.springframework.test.context.event.EventPublishingTestExecutionListener@983eff3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@298a4624, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6bacb0cb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15d8582a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@332d115, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78720c31]
+10:57:44.488 [INFO ] [                   Test worker] [ DecoderControllerWaesImplTest:55 ] - Starting DecoderControllerWaesImplTest on DESARROLLO-ROBERTOA with PID 21108 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+10:57:44.489 [INFO ] [                   Test worker] [ DecoderControllerWaesImplTest:651] - No active profile set, falling back to default profiles: default
+10:57:45.836 [INFO ] [                   Test worker] [               TomcatWebServer:92 ] - Tomcat initialized with port(s): 0 (http)
+10:57:45.850 [INFO ] [                   Test worker] [             Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-auto-1"]
+10:57:45.852 [INFO ] [                   Test worker] [               StandardService:173] - Starting service [Tomcat]
+10:57:45.853 [INFO ] [                   Test worker] [                StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+10:57:46.047 [INFO ] [                   Test worker] [                           [/]:173] - Initializing Spring embedded WebApplicationContext
+10:57:46.048 [INFO ] [                   Test worker] [                 ContextLoader:284] - Root WebApplicationContext: initialization completed in 1534 ms
+10:57:46.810 [INFO ] [                   Test worker] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:57:46.959 [INFO ] [                   Test worker] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+10:57:47.258 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:160] - Context refreshed
+10:57:47.288 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+10:57:47.332 [INFO ] [                   Test worker] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+10:57:47.543 [INFO ] [                   Test worker] [             Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-auto-1"]
+10:57:47.564 [INFO ] [                   Test worker] [               TomcatWebServer:204] - Tomcat started on port(s): 53654 (http) with context path ''
+10:57:47.567 [INFO ] [                   Test worker] [ DecoderControllerWaesImplTest:61 ] - Started DecoderControllerWaesImplTest in 3.453 seconds (JVM running for 5.17)
+10:57:47.966 [INFO ] [        http-nio-auto-1-exec-1] [                           [/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:57:47.967 [INFO ] [        http-nio-auto-1-exec-1] [             DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+10:57:47.990 [INFO ] [        http-nio-auto-1-exec-1] [             DispatcherServlet:547] - Completed initialization in 23 ms
+10:57:48.069 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:51 ] - storeLeftJSON Request
+10:57:48.070 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:52 ] - jsonRequest:StoreJSONRequest(jsonObject=ewogICAgImdsb3NzYXJ5IjogewogICAgICAgICJ0aXRsZSI6ICJleGFtcGxlIGdsb3NzYXJ5IiwKCQkiR2xvc3NEaXYiOiB7CiAgICAgICAgICAgICJ0aXRsZSI6ICJTIiwKCQkJIkdsb3NzTGlzdCI6IHsKICAgICAgICAgICAgICAgICJHbG9zc0VudHJ5IjogewogICAgICAgICAgICAgICAgICAgICJJRCI6ICJTR01MIiwKCQkJCQkiU29ydEFzIjogIlNHTUwiLAoJCQkJCSJHbG9zc1Rlcm0iOiAiU3RhbmRhcmQgR2VuZXJhbGl6ZWQgTWFya3VwIExhbmd1YWdlIiwKCQkJCQkiQWNyb255bSI6ICJTR01MIiwKCQkJCQkiQWJicmV2IjogIklTTyA4ODc5OjE5ODYiLAoJCQkJCSJHbG9zc0RlZiI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgInBhcmEiOiAiQSBtZXRhLW1hcmt1cCBsYW5ndWFnZSwgdXNlZCB0byBjcmVhdGUgbWFya3VwIGxhbmd1YWdlcyBzdWNoIGFzIERvY0Jvb2suIiwKCQkJCQkJIkdsb3NzU2VlQWxzbyI6IFsiR01MIiwgIlhNTCJdCiAgICAgICAgICAgICAgICAgICAgfSwKCQkJCQkiR2xvc3NTZWUiOiAibWFya3VwIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9)
+10:57:48.070 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:53 ] - idRequest:Integration
+10:57:48.073 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:72 ] - JsonId not found
+10:57:48.074 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:73 ] - Creating new HashMap Instance
+10:57:48.074 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Integration
+10:57:48.103 [INFO ] [        http-nio-auto-1-exec-2] [     DecoderControllerWaesImpl:73 ] - storeRightJSON Request:
+10:57:48.103 [INFO ] [        http-nio-auto-1-exec-2] [     DecoderControllerWaesImpl:74 ] - jsonRequest:StoreJSONRequest(jsonObject=eyJ3aWRnZXQiOiB7CiAgICAiZGVidWciOiAib24iLAogICAgIndpbmRvdyI6IHsKICAgICAgICAidGl0bGUiOiAiU2FtcGxlIEtvbmZhYnVsYXRvciBXaWRnZXQiLAogICAgICAgICJuYW1lIjogIm1haW5fd2luZG93IiwKICAgICAgICAid2lkdGgiOiA1MDAsCiAgICAgICAgImhlaWdodCI6IDUwMAogICAgfSwKICAgICJpbWFnZSI6IHsgCiAgICAgICAgInNyYyI6ICJJbWFnZXMvU3VuLnBuZyIsCiAgICAgICAgIm5hbWUiOiAic3VuMSIsCiAgICAgICAgImhPZmZzZXQiOiAyNTAsCiAgICAgICAgInZPZmZzZXQiOiAyNTAsCiAgICAgICAgImFsaWdubWVudCI6ICJjZW50ZXIiCiAgICB9LAogICAgInRleHQiOiB7CiAgICAgICAgImRhdGEiOiAiQ2xpY2sgSGVyZSIsCiAgICAgICAgInNpemUiOiAzNiwKICAgICAgICAic3R5bGUiOiAiYm9sZCIsCiAgICAgICAgIm5hbWUiOiAidGV4dDEiLAogICAgICAgICJoT2Zmc2V0IjogMjUwLAogICAgICAgICJ2T2Zmc2V0IjogMTAwLAogICAgICAgICJhbGlnbm1lbnQiOiAiY2VudGVyIiwKICAgICAgICAib25Nb3VzZVVwIjogInN1bjEub3BhY2l0eSA9IChzdW4xLm9wYWNpdHkgLyAxMDApICogOTA7IgogICAgfQp9fSAgIA==)
+10:57:48.104 [INFO ] [        http-nio-auto-1-exec-2] [     DecoderControllerWaesImpl:75 ] - idRequest:Integration
+10:57:48.104 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Integration
+10:57:48.105 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+} and {"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}   
+10:57:48.106 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+10:57:48.106 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:143] - RightDecode:{"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}   
+10:57:48.117 [INFO ] [        http-nio-auto-1-exec-2] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=glossary = {title=example glossary, GlossDiv={title=S, GlossList={GlossEntry={ID=SGML, SortAs=SGML, GlossTerm=Standard Generalized Markup Language, Acronym=SGML, Abbrev=ISO 8879:1986, GlossDef={para=A meta-markup language, used to create markup languages such as DocBook., GlossSeeAlso=[GML, XML]}, GlossSee=markup}}}}, rightDifference=widget = {debug=on, window={title=Sample Konfabulator Widget, name=main_window, width=500.0, height=500.0}, image={src=Images/Sun.png, name=sun1, hOffset=250.0, vOffset=250.0, alignment=center}, text={data=Click Here, size=36.0, style=bold, name=text1, hOffset=250.0, vOffset=100.0, alignment=center, onMouseUp=sun1.opacity = (sun1.opacity / 100) * 90;}}, valueDifference=null)
+10:57:48.145 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.robert.unit.test.OperationDecoderWaesImplTest], using SpringBootContextLoader
+10:57:48.146 [INFO ] [                   Test worker] [         AbstractContextLoader:264] - Could not detect default resource locations for test class [com.robert.unit.test.OperationDecoderWaesImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:57:48.147 [INFO ] [                   Test worker] [tationConfigContextLoaderUtils:83 ] - Could not detect default configuration classes for test class [com.robert.unit.test.OperationDecoderWaesImplTest]: OperationDecoderWaesImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:57:48.153 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:235] - Found @SpringBootConfiguration com.robert.MsDecoderApplication for test class com.robert.unit.test.OperationDecoderWaesImplTest
+10:57:48.155 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:57:48.156 [INFO ] [                   Test worker] [ingBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42331f86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11864b72, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@119d29b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@11fe0715, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b6be583, org.springframework.test.context.event.EventPublishingTestExecutionListener@6895ea47, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@10bdde04, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@719aa5a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65c911e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@22c908c8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5cfaaf6b]
+10:57:48.190 [INFO ] [                   Test worker] [  OperationDecoderWaesImplTest:55 ] - Starting OperationDecoderWaesImplTest on DESARROLLO-ROBERTOA with PID 21108 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+10:57:48.190 [INFO ] [                   Test worker] [  OperationDecoderWaesImplTest:651] - No active profile set, falling back to default profiles: default
+10:57:48.948 [INFO ] [                   Test worker] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:57:49.109 [INFO ] [                   Test worker] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+10:57:49.289 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:160] - Context refreshed
+10:57:49.290 [INFO ] [                   Test worker] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+10:57:49.296 [INFO ] [                   Test worker] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+10:57:49.331 [INFO ] [                   Test worker] [  OperationDecoderWaesImplTest:61 ] - Started OperationDecoderWaesImplTest in 1.168 seconds (JVM running for 6.932)
+10:57:49.344 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:72 ] - JsonId not found
+10:57:49.344 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:73 ] - Creating new HashMap Instance
+10:57:49.344 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Test
+10:57:49.350 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Test
+10:57:49.350 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+"comment" : "Test",
+"code" : 00
+}
+10:57:49.351 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+10:57:49.351 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:143] - RightDecode:{
+"comment" : "Test",
+"code" : 00
+}
+10:57:49.353 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=token = 123$dhgjtu, rightDifference=code = 00, valueDifference=comment = (Test1, Test))
+10:57:49.362 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:72 ] - JsonId not found
+10:57:49.362 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:73 ] - Creating new HashMap Instance
+10:57:49.363 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Equal
+10:57:49.363 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Equal
+10:57:49.364 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+10:57:49.364 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is equal, leftDifference=null, rightDifference=null, valueDifference=null)
+10:57:49.368 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:98 ] - JSON Structure already in this side
+10:57:49.369 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:98 ] - JSON Structure already in this side
+10:57:49.373 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in RIGHT in JsonId:Test
+10:57:49.374 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:57:49.375 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+10:57:49.375 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:143] - RightDecode:{
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:57:49.376 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=token = 123$dhgjtu,comment = Test1, rightDifference=items = [{id=704.0, valor=100CC, marca=CARABELA}, {id=654.0, valor=1200 CUSTOM, marca=HARLEY-DAVIDSON}, {id=707.0, valor=125CC, marca=CARABELA}], valueDifference=null)
+10:57:49.377 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:84 ] - Saving in LEFT in JsonId:Test
+10:57:49.377 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:129] - Calculating differences between {
+"comment" : "Test",
+"code" : 00
+} and {
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:57:49.377 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:142] - LeftDecode:{
+"comment" : "Test",
+"code" : 00
+}
+10:57:49.378 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:143] - RightDecode:{
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+10:57:49.379 [INFO ] [                   Test worker] [      OperationDecoderWaesImpl:155] - DifferencesResponse(length=Length is not equal, leftDifference=comment = Test,code = 00, rightDifference=items = [{id=704.0, valor=100CC, marca=CARABELA}, {id=654.0, valor=1200 CUSTOM, marca=HARLEY-DAVIDSON}, {id=707.0, valor=125CC, marca=CARABELA}], valueDifference=null)
+10:57:49.391 [INFO ] [     SpringContextShutdownHook] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+10:57:49.392 [INFO ] [     SpringContextShutdownHook] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+11:34:15.752 [INFO ] [                          main] [          MsDecoderApplication:55 ] - Starting MsDecoderApplication on DESARROLLO-ROBERTOA with PID 11204 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+11:34:15.756 [INFO ] [                          main] [          MsDecoderApplication:651] - No active profile set, falling back to default profiles: default
+11:34:17.438 [INFO ] [                          main] [               TomcatWebServer:92 ] - Tomcat initialized with port(s): 9999 (http)
+11:34:17.450 [INFO ] [                          main] [             Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9999"]
+11:34:17.451 [INFO ] [                          main] [               StandardService:173] - Starting service [Tomcat]
+11:34:17.451 [INFO ] [                          main] [                StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+11:34:17.554 [INFO ] [                          main] [                           [/]:173] - Initializing Spring embedded WebApplicationContext
+11:34:17.555 [INFO ] [                          main] [                 ContextLoader:284] - Root WebApplicationContext: initialization completed in 1752 ms
+11:34:17.988 [INFO ] [                          main] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:34:18.068 [INFO ] [                          main] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+11:34:18.215 [INFO ] [                          main] [cumentationPluginsBootstrapper:160] - Context refreshed
+11:34:18.239 [INFO ] [                          main] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+11:34:18.275 [INFO ] [                          main] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+11:34:18.515 [INFO ] [                          main] [             Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9999"]
+11:34:18.547 [INFO ] [                          main] [               TomcatWebServer:204] - Tomcat started on port(s): 9999 (http) with context path ''
+11:34:18.551 [INFO ] [                          main] [          MsDecoderApplication:61 ] - Started MsDecoderApplication in 3.233 seconds (JVM running for 3.769)
+11:34:25.842 [INFO ] [          http-nio-9999-exec-1] [                           [/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:34:25.843 [INFO ] [          http-nio-9999-exec-1] [             DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+11:34:25.851 [INFO ] [          http-nio-9999-exec-1] [             DispatcherServlet:547] - Completed initialization in 8 ms
+11:38:14.364 [INFO ] [                          main] [ingBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.robert.integration.test.DecoderControllerWaesImplTest], using SpringBootContextLoader
+11:38:14.376 [INFO ] [                          main] [         AbstractContextLoader:264] - Could not detect default resource locations for test class [com.robert.integration.test.DecoderControllerWaesImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:38:14.378 [INFO ] [                          main] [tationConfigContextLoaderUtils:83 ] - Could not detect default configuration classes for test class [com.robert.integration.test.DecoderControllerWaesImplTest]: DecoderControllerWaesImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:38:14.541 [INFO ] [                          main] [ingBootTestContextBootstrapper:235] - Found @SpringBootConfiguration com.robert.MsDecoderApplication for test class com.robert.integration.test.DecoderControllerWaesImplTest
+11:38:14.706 [INFO ] [                          main] [ingBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:38:14.724 [INFO ] [                          main] [ingBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b6166aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a77614d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fd4cae3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4a067c25, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a1217f9, org.springframework.test.context.event.EventPublishingTestExecutionListener@3bde62ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@523424b5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2baa8d82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@319dead1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@791cbf87, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a7e2d9d]
+11:38:15.295 [INFO ] [                          main] [ DecoderControllerWaesImplTest:55 ] - Starting DecoderControllerWaesImplTest on DESARROLLO-ROBERTOA with PID 18196 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+11:38:15.296 [INFO ] [                          main] [ DecoderControllerWaesImplTest:651] - No active profile set, falling back to default profiles: default
+11:38:17.545 [INFO ] [                          main] [               TomcatWebServer:92 ] - Tomcat initialized with port(s): 0 (http)
+11:38:17.566 [INFO ] [                          main] [             Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-auto-1"]
+11:38:17.567 [INFO ] [                          main] [               StandardService:173] - Starting service [Tomcat]
+11:38:17.567 [INFO ] [                          main] [                StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+11:38:17.725 [INFO ] [                          main] [                           [/]:173] - Initializing Spring embedded WebApplicationContext
+11:38:17.725 [INFO ] [                          main] [                 ContextLoader:284] - Root WebApplicationContext: initialization completed in 2385 ms
+11:38:18.809 [INFO ] [                          main] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:38:19.059 [INFO ] [                          main] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+11:38:19.607 [INFO ] [                          main] [cumentationPluginsBootstrapper:160] - Context refreshed
+11:38:19.668 [INFO ] [                          main] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+11:38:19.713 [INFO ] [                          main] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+11:38:19.989 [INFO ] [                          main] [             Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-auto-1"]
+11:38:20.034 [INFO ] [                          main] [               TomcatWebServer:204] - Tomcat started on port(s): 54311 (http) with context path ''
+11:38:20.039 [INFO ] [                          main] [ DecoderControllerWaesImplTest:61 ] - Started DecoderControllerWaesImplTest in 5.262 seconds (JVM running for 7.781)
+11:38:20.555 [INFO ] [        http-nio-auto-1-exec-1] [                           [/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:38:20.555 [INFO ] [        http-nio-auto-1-exec-1] [             DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+11:38:20.580 [INFO ] [        http-nio-auto-1-exec-1] [             DispatcherServlet:547] - Completed initialization in 24 ms
+11:38:20.655 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:52 ] - storeLeftJSON Request
+11:38:20.655 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:53 ] - jsonRequest:StoreJSONRequest(jsonObject=ewogICAgImdsb3NzYXJ5IjogewogICAgICAgICJ0aXRsZSI6ICJleGFtcGxlIGdsb3NzYXJ5IiwKCQkiR2xvc3NEaXYiOiB7CiAgICAgICAgICAgICJ0aXRsZSI6ICJTIiwKCQkJIkdsb3NzTGlzdCI6IHsKICAgICAgICAgICAgICAgICJHbG9zc0VudHJ5IjogewogICAgICAgICAgICAgICAgICAgICJJRCI6ICJTR01MIiwKCQkJCQkiU29ydEFzIjogIlNHTUwiLAoJCQkJCSJHbG9zc1Rlcm0iOiAiU3RhbmRhcmQgR2VuZXJhbGl6ZWQgTWFya3VwIExhbmd1YWdlIiwKCQkJCQkiQWNyb255bSI6ICJTR01MIiwKCQkJCQkiQWJicmV2IjogIklTTyA4ODc5OjE5ODYiLAoJCQkJCSJHbG9zc0RlZiI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgInBhcmEiOiAiQSBtZXRhLW1hcmt1cCBsYW5ndWFnZSwgdXNlZCB0byBjcmVhdGUgbWFya3VwIGxhbmd1YWdlcyBzdWNoIGFzIERvY0Jvb2suIiwKCQkJCQkJIkdsb3NzU2VlQWxzbyI6IFsiR01MIiwgIlhNTCJdCiAgICAgICAgICAgICAgICAgICAgfSwKCQkJCQkiR2xvc3NTZWUiOiAibWFya3VwIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9)
+11:38:20.655 [INFO ] [        http-nio-auto-1-exec-1] [     DecoderControllerWaesImpl:54 ] - idRequest:Integration
+11:38:20.661 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:65 ] - JsonId not found
+11:38:20.661 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:66 ] - Creating new HashMap Instance
+11:38:20.662 [INFO ] [        http-nio-auto-1-exec-1] [      OperationDecoderWaesImpl:77 ] - Saving in LEFT in JsonId:Integration
+11:38:20.699 [INFO ] [        http-nio-auto-1-exec-3] [     DecoderControllerWaesImpl:75 ] - storeRightJSON Request:
+11:38:20.699 [INFO ] [        http-nio-auto-1-exec-3] [     DecoderControllerWaesImpl:76 ] - jsonRequest:StoreJSONRequest(jsonObject=eyJ3aWRnZXQiOiB7CiAgICAiZGVidWciOiAib24iLAogICAgIndpbmRvdyI6IHsKICAgICAgICAidGl0bGUiOiAiU2FtcGxlIEtvbmZhYnVsYXRvciBXaWRnZXQiLAogICAgICAgICJuYW1lIjogIm1haW5fd2luZG93IiwKICAgICAgICAid2lkdGgiOiA1MDAsCiAgICAgICAgImhlaWdodCI6IDUwMAogICAgfSwKICAgICJpbWFnZSI6IHsgCiAgICAgICAgInNyYyI6ICJJbWFnZXMvU3VuLnBuZyIsCiAgICAgICAgIm5hbWUiOiAic3VuMSIsCiAgICAgICAgImhPZmZzZXQiOiAyNTAsCiAgICAgICAgInZPZmZzZXQiOiAyNTAsCiAgICAgICAgImFsaWdubWVudCI6ICJjZW50ZXIiCiAgICB9LAogICAgInRleHQiOiB7CiAgICAgICAgImRhdGEiOiAiQ2xpY2sgSGVyZSIsCiAgICAgICAgInNpemUiOiAzNiwKICAgICAgICAic3R5bGUiOiAiYm9sZCIsCiAgICAgICAgIm5hbWUiOiAidGV4dDEiLAogICAgICAgICJoT2Zmc2V0IjogMjUwLAogICAgICAgICJ2T2Zmc2V0IjogMTAwLAogICAgICAgICJhbGlnbm1lbnQiOiAiY2VudGVyIiwKICAgICAgICAib25Nb3VzZVVwIjogInN1bjEub3BhY2l0eSA9IChzdW4xLm9wYWNpdHkgLyAxMDApICogOTA7IgogICAgfQp9fSAgIA==)
+11:38:20.699 [INFO ] [        http-nio-auto-1-exec-3] [     DecoderControllerWaesImpl:77 ] - idRequest:Integration
+11:38:20.700 [INFO ] [        http-nio-auto-1-exec-3] [      OperationDecoderWaesImpl:77 ] - Saving in RIGHT in JsonId:Integration
+11:38:20.700 [INFO ] [        http-nio-auto-1-exec-3] [      OperationDecoderWaesImpl:116] - Calculating differences between {
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+} and {"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}   
+11:38:20.700 [INFO ] [        http-nio-auto-1-exec-3] [      OperationDecoderWaesImpl:129] - LeftDecode:{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+11:38:20.700 [INFO ] [        http-nio-auto-1-exec-3] [      OperationDecoderWaesImpl:130] - RightDecode:{"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}   
+11:38:20.715 [INFO ] [        http-nio-auto-1-exec-3] [      OperationDecoderWaesImpl:142] - DifferencesResponse(length=Length is not equal, leftDifference=glossary = {title=example glossary, GlossDiv={title=S, GlossList={GlossEntry={ID=SGML, SortAs=SGML, GlossTerm=Standard Generalized Markup Language, Acronym=SGML, Abbrev=ISO 8879:1986, GlossDef={para=A meta-markup language, used to create markup languages such as DocBook., GlossSeeAlso=[GML, XML]}, GlossSee=markup}}}}, rightDifference=widget = {debug=on, window={title=Sample Konfabulator Widget, name=main_window, width=500.0, height=500.0}, image={src=Images/Sun.png, name=sun1, hOffset=250.0, vOffset=250.0, alignment=center}, text={data=Click Here, size=36.0, style=bold, name=text1, hOffset=250.0, vOffset=100.0, alignment=center, onMouseUp=sun1.opacity = (sun1.opacity / 100) * 90;}}, valueDifference=null)
+11:38:20.745 [INFO ] [                          main] [ingBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.robert.unit.test.OperationDecoderWaesImplTest], using SpringBootContextLoader
+11:38:20.746 [INFO ] [                          main] [         AbstractContextLoader:264] - Could not detect default resource locations for test class [com.robert.unit.test.OperationDecoderWaesImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:38:20.747 [INFO ] [                          main] [tationConfigContextLoaderUtils:83 ] - Could not detect default configuration classes for test class [com.robert.unit.test.OperationDecoderWaesImplTest]: OperationDecoderWaesImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:38:20.755 [INFO ] [                          main] [ingBootTestContextBootstrapper:235] - Found @SpringBootConfiguration com.robert.MsDecoderApplication for test class com.robert.unit.test.OperationDecoderWaesImplTest
+11:38:20.758 [INFO ] [                          main] [ingBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:38:20.760 [INFO ] [                          main] [ingBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@45e639ee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77f03916, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@fbbd90c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21c34bf8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@559e3f67, org.springframework.test.context.event.EventPublishingTestExecutionListener@23d0944b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@72f24a84, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49d543a9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6d9428f3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ac19bc6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a075e70]
+11:38:20.878 [INFO ] [                          main] [  OperationDecoderWaesImplTest:55 ] - Starting OperationDecoderWaesImplTest on DESARROLLO-ROBERTOA with PID 18196 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+11:38:20.883 [INFO ] [                          main] [  OperationDecoderWaesImplTest:651] - No active profile set, falling back to default profiles: default
+11:38:21.940 [INFO ] [                          main] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:38:22.198 [INFO ] [                          main] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+11:38:22.511 [INFO ] [                          main] [cumentationPluginsBootstrapper:160] - Context refreshed
+11:38:22.512 [INFO ] [                          main] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+11:38:22.520 [INFO ] [                          main] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+11:38:22.550 [INFO ] [                          main] [  OperationDecoderWaesImplTest:61 ] - Started OperationDecoderWaesImplTest in 1.779 seconds (JVM running for 10.293)
+11:38:22.568 [INFO ] [                          main] [      OperationDecoderWaesImpl:65 ] - JsonId not found
+11:38:22.568 [INFO ] [                          main] [      OperationDecoderWaesImpl:66 ] - Creating new HashMap Instance
+11:38:22.568 [INFO ] [                          main] [      OperationDecoderWaesImpl:77 ] - Saving in LEFT in JsonId:Test
+11:38:22.573 [INFO ] [                          main] [      OperationDecoderWaesImpl:77 ] - Saving in RIGHT in JsonId:Test
+11:38:22.573 [INFO ] [                          main] [      OperationDecoderWaesImpl:116] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+"comment" : "Test",
+"code" : 00
+}
+11:38:22.574 [INFO ] [                          main] [      OperationDecoderWaesImpl:129] - LeftDecode:{
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+11:38:22.574 [INFO ] [                          main] [      OperationDecoderWaesImpl:130] - RightDecode:{
+"comment" : "Test",
+"code" : 00
+}
+11:38:22.575 [INFO ] [                          main] [      OperationDecoderWaesImpl:142] - DifferencesResponse(length=Length is not equal, leftDifference=token = 123$dhgjtu, rightDifference=code = 00, valueDifference=comment = (Test1, Test))
+11:38:22.585 [INFO ] [                          main] [      OperationDecoderWaesImpl:65 ] - JsonId not found
+11:38:22.585 [INFO ] [                          main] [      OperationDecoderWaesImpl:66 ] - Creating new HashMap Instance
+11:38:22.585 [INFO ] [                          main] [      OperationDecoderWaesImpl:77 ] - Saving in LEFT in JsonId:Equal
+11:38:22.586 [INFO ] [                          main] [      OperationDecoderWaesImpl:77 ] - Saving in RIGHT in JsonId:Equal
+11:38:22.586 [INFO ] [                          main] [      OperationDecoderWaesImpl:116] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+11:38:22.586 [INFO ] [                          main] [      OperationDecoderWaesImpl:142] - DifferencesResponse(length=Length is equal, leftDifference=null, rightDifference=null, valueDifference=null)
+11:38:22.591 [INFO ] [                          main] [      OperationDecoderWaesImpl:91 ] - JSON Structure already in this side
+11:38:22.591 [INFO ] [                          main] [      OperationDecoderWaesImpl:91 ] - JSON Structure already in this side
+11:38:22.598 [INFO ] [                          main] [      OperationDecoderWaesImpl:77 ] - Saving in RIGHT in JsonId:Test
+11:38:22.598 [INFO ] [                          main] [      OperationDecoderWaesImpl:116] - Calculating differences between {
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+} and {
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+11:38:22.598 [INFO ] [                          main] [      OperationDecoderWaesImpl:129] - LeftDecode:{
+    "token": "123$dhgjtu",
+    "comment": "Test1"
+}
+11:38:22.599 [INFO ] [                          main] [      OperationDecoderWaesImpl:130] - RightDecode:{
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+11:38:22.599 [INFO ] [                          main] [      OperationDecoderWaesImpl:142] - DifferencesResponse(length=Length is not equal, leftDifference=token = 123$dhgjtu,comment = Test1, rightDifference=items = [{id=704.0, valor=100CC, marca=CARABELA}, {id=654.0, valor=1200 CUSTOM, marca=HARLEY-DAVIDSON}, {id=707.0, valor=125CC, marca=CARABELA}], valueDifference=null)
+11:38:22.600 [INFO ] [                          main] [      OperationDecoderWaesImpl:77 ] - Saving in LEFT in JsonId:Test
+11:38:22.600 [INFO ] [                          main] [      OperationDecoderWaesImpl:116] - Calculating differences between {
+"comment" : "Test",
+"code" : 00
+} and {
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+11:38:22.600 [INFO ] [                          main] [      OperationDecoderWaesImpl:129] - LeftDecode:{
+"comment" : "Test",
+"code" : 00
+}
+11:38:22.600 [INFO ] [                          main] [      OperationDecoderWaesImpl:130] - RightDecode:{
+    "items": [
+        {
+            "id": 704,
+            "valor": "100CC",
+            "marca": "CARABELA"
+        },
+        {
+            "id": 654,
+            "valor": "1200 CUSTOM",
+            "marca": "HARLEY-DAVIDSON"
+        },
+        {
+            "id": 707,
+            "valor": "125CC",
+            "marca": "CARABELA"
+        }
+]
+}
+11:38:22.601 [INFO ] [                          main] [      OperationDecoderWaesImpl:142] - DifferencesResponse(length=Length is not equal, leftDifference=comment = Test,code = 00, rightDifference=items = [{id=704.0, valor=100CC, marca=CARABELA}, {id=654.0, valor=1200 CUSTOM, marca=HARLEY-DAVIDSON}, {id=707.0, valor=125CC, marca=CARABELA}], valueDifference=null)
+11:38:22.609 [INFO ] [     SpringContextShutdownHook] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+11:38:22.611 [INFO ] [     SpringContextShutdownHook] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+11:40:32.375 [INFO ] [                          main] [          MsDecoderApplication:55 ] - Starting MsDecoderApplication on DESARROLLO-ROBERTOA with PID 22152 (started by Roberto Armenta in C:\Users\Roberto Armenta\Documents\Proyectos\ChapoJR\WAES\MsDecoder)
+11:40:32.379 [INFO ] [                          main] [          MsDecoderApplication:651] - No active profile set, falling back to default profiles: default
+11:40:33.253 [INFO ] [                          main] [               TomcatWebServer:92 ] - Tomcat initialized with port(s): 9999 (http)
+11:40:33.260 [INFO ] [                          main] [             Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9999"]
+11:40:33.261 [INFO ] [                          main] [               StandardService:173] - Starting service [Tomcat]
+11:40:33.261 [INFO ] [                          main] [                StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+11:40:33.328 [INFO ] [                          main] [                           [/]:173] - Initializing Spring embedded WebApplicationContext
+11:40:33.328 [INFO ] [                          main] [                 ContextLoader:284] - Root WebApplicationContext: initialization completed in 917 ms
+11:40:33.581 [INFO ] [                          main] [edRequestMappingHandlerMapping:69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:40:33.635 [INFO ] [                          main] [        ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+11:40:33.745 [INFO ] [                          main] [cumentationPluginsBootstrapper:160] - Context refreshed
+11:40:33.758 [INFO ] [                          main] [cumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+11:40:33.780 [INFO ] [                          main] [    ApiListingReferenceScanner:41 ] - Scanning for api listing references
+11:40:33.897 [INFO ] [                          main] [             Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9999"]
+11:40:33.913 [INFO ] [                          main] [               TomcatWebServer:204] - Tomcat started on port(s): 9999 (http) with context path ''
+11:40:33.916 [INFO ] [                          main] [          MsDecoderApplication:61 ] - Started MsDecoderApplication in 1.813 seconds (JVM running for 2.836)
+11:40:36.989 [INFO ] [          http-nio-9999-exec-1] [                           [/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:40:36.990 [INFO ] [          http-nio-9999-exec-1] [             DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+11:40:36.994 [INFO ] [          http-nio-9999-exec-1] [             DispatcherServlet:547] - Completed initialization in 4 ms
+11:43:12.883 [INFO ] [MI TCP Connection(5)-127.0.0.1] [gistrar$SpringApplicationAdmin:159] - Application shutdown requested.
+11:43:12.886 [INFO ] [MI TCP Connection(5)-127.0.0.1] [        ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
