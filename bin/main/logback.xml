@@ -19,16 +19,8 @@
         </encoder>
     </appender>
 
-    <logger name="com.bunkersoft" level="INFO" />
-    <logger name="org.springframework" level="INFO" />
-    <logger name="org.springframework.transaction" level="INFO" />
-    <logger name="org.springframework.security" level="INFO" /> <!-- to debug security related issues (DEBUG) -->
-    <logger name="org.springframework.web.servlet.mvc" level="INFO" /> <!-- some serialization issues are at trace level here: org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod -->
-    <logger name="org.hibernate.SQL" level="INFO" />
-    <logger name="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" level="INFO" />
-    <logger name="co.api.support" level="WARN" />
-    <logger name="com.promad.api.config.ApiAudit" level="INFO" />
-
+    <logger name="com.robert" level="INFO" />
+    
     <root level="info">
         <appender-ref ref="FILE" />
         <appender-ref ref="STDOUT" />

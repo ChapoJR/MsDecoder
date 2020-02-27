@@ -2,4 +2,3 @@
 
 server:  #This parameter defines the port which the TomCat server will be started
   port: 9999
-  

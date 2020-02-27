@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.robert.enums.HashJSONKey;
 import com.robert.exception.FunctionJSONException;
 import com.robert.request.StoreJSONRequest;
-import com.robert.response.DifferencesResponse;
+import com.robert.response.DifferenceResponse;
 import com.robert.response.GenericResponse;
+import com.robert.response.GetAllDifferenceResponse;
 import com.robert.rest.DecoderController;
 import com.robert.service.impl.OperationDecoderWaesImpl;
 
@@ -27,9 +28,8 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  *
- * @author Roberto Armenta
- * Implementation of the DecoderController Interface for WAES, the
- * API was documented with Swagger2
+ * @author Roberto Armenta Implementation of the DecoderController Interface for
+ *         WAES, the API was documented with Swagger2
  * 
  */
 @RestController
@@ -49,7 +49,7 @@ public class DecoderControllerWaesImpl implements DecoderController {
 	@Override
 	public ResponseEntity<Object> storeLeftSide(@RequestBody StoreJSONRequest jsonRequest,
 			@ApiParam(value = "ID to store a new JSON encode", required = true) @PathVariable("id") String idRequest) {
-		log.info("storeLeftJSON Request");
+		log.info("/storeLeftJSON Request");
 		log.info("jsonRequest:" + jsonRequest);
 		log.info("idRequest:" + idRequest);
 		try {
@@ -72,7 +72,7 @@ public class DecoderControllerWaesImpl implements DecoderController {
 	@Override
 	public ResponseEntity<Object> storeRightSide(@RequestBody StoreJSONRequest jsonRequest,
 			@ApiParam(value = "ID to store a new JSON encode", required = true) @PathVariable("id") String idRequest) {
-		log.info("storeRightJSON Request:");
+		log.info("/storeRightJSON Request");
 		log.info("jsonRequest:" + jsonRequest);
 		log.info("idRequest:" + idRequest);
 		try {
@@ -89,14 +89,35 @@ public class DecoderControllerWaesImpl implements DecoderController {
 
 	@GetMapping(path = "/{id}", produces = "application/json")
 	@ApiOperation(value = "/getDifferences")
-	@ApiResponses(value = { @ApiResponse(code = 200, message = "Success", response = DifferencesResponse.class),
+	@ApiResponses(value = { @ApiResponse(code = 200, message = "Success", response = DifferenceResponse.class),
 			@ApiResponse(code = 400, message = "BadRequest", response = GenericResponse.class),
 			@ApiResponse(code = 500, message = "Internal Server Error", response = GenericResponse.class) })
 	@Override
 	public ResponseEntity<Object> getDifferences(
 			@ApiParam(value = "ID to find an stored comparation", required = true) @PathVariable("id") String idRequest) {
 		try {
+			log.info("/getDifferences Request");
+			log.info("idRequest:" + idRequest);
 			return new ResponseEntity<>(waesService.getJSONDifference(idRequest), HttpStatus.OK);
+		} catch (FunctionJSONException ex) {
+			GenericResponse response = new GenericResponse(ex.getMessage());
+			return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+		} catch (Exception exAlt) {
+			GenericResponse response = new GenericResponse(exAlt.getMessage());
+			return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+
+	@GetMapping(path = "", produces = "application/json")
+	@ApiResponses(value = {
+			@ApiResponse(code = 200, message = "Success", responseContainer = "List", response = GetAllDifferenceResponse.class),
+			@ApiResponse(code = 400, message = "BadRequest", response = GenericResponse.class),
+			@ApiResponse(code = 500, message = "Internal Server Error", response = GenericResponse.class) })
+	@Override
+	public ResponseEntity<Object> getAllDifferences() {
+		try {
+			log.info("/getAllDifferences");
+			return new ResponseEntity<Object>(waesService.getAllDifferences(), HttpStatus.OK);
 		} catch (FunctionJSONException ex) {
 			GenericResponse response = new GenericResponse(ex.getMessage());
 			return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
