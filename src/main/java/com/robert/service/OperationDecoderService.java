@@ -52,6 +52,7 @@ public interface OperationDecoderService {
 
 	/**
 	 * This method search all of the stored hash collection and return it in a List
+	 * @throws com.robert.exception.FunctionJSONException
 	 */
 	public List<GetAllDifferenceResponse> getAllDifferences() throws FunctionJSONException;
 }
